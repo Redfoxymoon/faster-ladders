@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "faster-ladders",
+  "version": "${version}",
+  "name": "Faster Ladders",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/faster-ladders/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.foxi.fasterladders.FasterLadders"
+    ]
+  },
+  "mixins": [
+    "faster-ladders.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
